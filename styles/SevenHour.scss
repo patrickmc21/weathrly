@@ -1,0 +1,16 @@
+.hourly {
+  display: inline-block;
+  margin: 3% 0 0 35%;
+  height: 400px;
+  width: 450px;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 450px) {
+  .hourly {
+    display: none;
+    height: 330px;
+    width: 100%;
+    margin: 0;
+  }
+}

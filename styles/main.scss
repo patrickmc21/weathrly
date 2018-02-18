@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../sample-layout/mountain-bkrnd.jpg');
+  /*background-image: url('sunny.jpg');*/
+  /*background-image: url('snowy.jpg');*/
+  /*background-image: url('foggy.jpg');*/
+  /*background-image: url('stormy.jpg');*/
+  /*background-image: url('spring.jpg');*/
+  /*background-image: url('fall.jpg');*/
+  /*background-image: url('night.jpg');*/
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-image: url('../sample-layout/image.png');
+  }
+
+}
