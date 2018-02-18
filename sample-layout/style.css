@@ -1,0 +1,214 @@
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Englebert', sans-serif;*/
+/*4A6C8B light blue*/
+/*283543 dark blue*/
+/*5F6263 dark gray*/
+/*9B9993 light gray*/
+/*DCC7AF tan*/
+/*B69677 dark tan*/
+/*898764 green*/
+
+/*!header-text = 'Quicksand', sans-serif;
+!body-text = 'EB Garamond', serif;*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('mountain-bkrnd.jpg');
+  /*background-image: url('sunny.jpg');*/
+  /*background-image: url('snowy.jpg');*/
+  /*background-image: url('foggy.jpg');*/
+  /*background-image: url('stormy.jpg');*/
+  /*background-image: url('spring.jpg');*/
+  /*background-image: url('fall.jpg');*/
+  /*background-image: url('night.jpg');*/
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 80px;
+  background-color: transparent;
+}
+
+h2 {
+  float: left;
+  display: inline-block;
+  margin: 7px 0 0 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 72px;
+  color: #283543;
+  text-shadow: 1px 1px 1px #B69677;
+}
+
+form {
+  float: right;
+  display: inline-block;
+  padding-left: 15%;
+  margin: 10px -20px 0 0;
+  width: 50%;
+  opacity: 0.8;
+}
+
+#search {
+  width: 80%;
+  height: 50px;
+  vertical-align: top;
+  font-size: 28px;
+}
+
+#search::placeholder {
+  font-size: 28px;
+}
+
+.submit-search {
+  border: none;
+  margin-left: -4px;
+  height: 50px;
+  width: 12%;
+  font-size: 16px;
+  font-family: 'EB Garamond', serif;
+}
+
+.submit-search::placeholder {
+}
+
+/*h3 {
+  float: right;
+  margin: 2% 3% 0 0;
+  display: inline-block;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+h3:hover {
+  color: #9B9993;
+}*/
+
+.main-banner {
+  height: 550px;
+}
+
+.container {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  height: 400px;
+  width: 1400px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.local-weather {
+  display: inline-block;
+  height: 400px;
+  width: 450px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 72px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h4 {
+  float: left;
+  margin: 20px 0 10px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 156px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.local-weather div {
+  margin: 100px 0 0 0;
+}
+
+h5 {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.temp {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  color: #DCC7AF;
+}
+
+.low {
+  color: #478FDE;
+}
+
+.forecast {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.hourly {
+  display: inline-block;
+  margin: 3% 0 0 35%;
+  height: 400px;
+  width: 450px;
+  vertical-align: top;
+}
+
+.hourly-card {
+  height: 40px;
+  padding: 10px 0 0 20px;
+  margin-bottom: 4px;
+  background-color: rgba(40, 53, 67, 0.6);
+}
+
+.hourly-card li{
+  display: inline;
+  margin-right: 30px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.ten-day {
+  margin-left: 20px;
+  height: 205px;
+  width: 1400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: #BCD0E9;*/
+}
+
+.ten-day-card {
+  display: inline-block;
+  margin: 0 5px;
+  height: 190px;
+  width: 126px;
+  vertical-align: top;
+  background-color: rgba(40, 53, 67, 0.7);
+}
+
+.ten-day-card li {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 36px;
+}
+
+#date {
+  margin: -15px 0 10px 0;
+  font-size: 22px;
+}
+
+.ten-day-card i {
+  font-size: 56px;
+}
