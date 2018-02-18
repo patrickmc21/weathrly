@@ -25,6 +25,7 @@ body {
   /*background-image: url('spring.jpg');*/
   /*background-image: url('fall.jpg');*/
   /*background-image: url('night.jpg');*/
+  /*background-image: url('Welcome-Background.jpg');*/
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,7 +220,11 @@ h5 {
 
 @media screen and (max-width: 450px) {
   body {
-    background-image: url('image.png');
+    background-image: url('sunny-mobile.png');
+    /*background-image: url('cloudy-mobile.png');*/
+    /*background-image: url('rainy-mobile.png');*/
+    /*background-image: url('snowy-mobile.png');*/
+    /*background-image: url('thunder-mobile.png');*/
     /*background-color: #9B9993;*/
   }
   .main-banner {
