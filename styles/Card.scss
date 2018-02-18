@@ -1,0 +1,55 @@
+.hourly-card {
+  height: 40px;
+  padding: 10px 0 0 20px;
+  margin-bottom: 4px;
+  background-color: rgba(40, 53, 67, 0.6);
+}
+
+.hourly-card li{
+  display: inline;
+  margin-right: 30px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.ten-day-card {
+  display: inline-block;
+  margin: 0 5px;
+  height: 190px;
+  width: 126px;
+  vertical-align: top;
+  background-color: rgba(40, 53, 67, 0.7);
+}
+
+.ten-day-card li {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 36px;
+}
+
+#date {
+  margin: -15px 0 10px 0;
+  font-size: 22px;
+}
+
+.ten-day-card i {
+  font-size: 56px;
+}
+
+@media screen and (max-width: 450px) { 
+  .hourly-card {
+    padding: 10px 0 0 10px;
+  }
+
+  .hourly-card li {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+
+   .ten-day-card {
+    width: 150px;
+    margin-top: 5px;
+  }
+}

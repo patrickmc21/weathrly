@@ -1,0 +1,27 @@
+.main-banner {
+  height: 550px;
+}
+
+.container {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  height: 400px;
+  width: 1400px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+@media screen and (max-width: 450px) {
+  .main-banner {
+    height: 240px;
+    width: 100%;
+  }
+  .container {
+    // display: none;
+    top: 240px;
+    left: 0;
+    height: 330px;
+    width: 100%;
+  }
+}

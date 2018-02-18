@@ -1,0 +1,68 @@
+.local-weather {
+  display: inline-block;
+  height: 400px;
+  width: 450px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 72px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h4 {
+  float: left;
+  margin: 20px 0 10px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 156px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.local-weather div {
+  margin: 100px 0 0 0;
+}
+
+h5 {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.temp {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  color: #DCC7AF;
+}
+
+.low {
+  color: #478FDE;
+}
+
+.forecast {
+  margin: 5px 0 0px 40px;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 450px) {
+  .local-weather {
+    display: inline-block;
+    height: 330px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 56px;
+  }
+
+  h4 {
+    float: none;
+    margin-top: 10px;
+    font-size: 102px;
+  }
+}

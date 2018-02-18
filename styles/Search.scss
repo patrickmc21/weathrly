@@ -1,0 +1,44 @@
+form {
+  float: right;
+  display: inline-block;
+  padding-left: 15%;
+  margin: 10px -20px 0 0;
+  width: 50%;
+  opacity: 0.8;
+}
+
+#search {
+  width: 80%;
+  height: 50px;
+  vertical-align: top;
+  font-size: 28px;
+}
+
+#search::placeholder {
+  font-size: 28px;
+}
+
+.submit-search {
+  border: none;
+  margin-left: -4px;
+  height: 50px;
+  width: 12%;
+  font-size: 16px;
+  font-family: 'EB Garamond', serif;
+}
+
+@media screen and (max-width: 450px) {
+  form {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+
+  }
+  #search {
+    width: 80%;
+  }
+  .submit-search {
+    width: 20%;
+  }
+
+}
