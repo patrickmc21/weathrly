@@ -54,6 +54,10 @@ form {
   opacity: 0.8;
 }
 
+.mobile-menu {
+  visibility: hidden;
+}
+
 #search {
   width: 80%;
   height: 50px;
@@ -128,7 +132,7 @@ h4 {
 }
 
 .local-weather div {
-  margin: 100px 0 0 0;
+  /*margin: 100px 0 0 0;*/
 }
 
 h5 {
@@ -211,4 +215,109 @@ h5 {
 
 .ten-day-card i {
   font-size: 56px;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-image: url('image.png');
+    /*background-color: #9B9993;*/
+  }
+  .main-banner {
+    height: 240px;
+    width: 100%;
+  }
+  .container {
+    display: none;
+    top: 240px;
+    left: 0;
+    height: 330px;
+    width: 100%;
+  }
+  header {
+    height: 160px;
+  }
+  h2 {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  form {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+
+  }
+  #search {
+    width: 80%;
+  }
+  .submit-search {
+    width: 20%;
+  }
+
+  .mobile-menu {
+    visibility: visible;
+    margin-top: 20px;
+    display: flex;
+    height: 60px;
+    width: 100%;
+  }
+
+  .mobile-menu li {
+    text-align: center;
+    padding-top: 5px;
+    width: 33%;
+    border: 2px solid black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  .mobile-menu p {
+    display: inline;
+  }
+
+  .local-weather {
+    display: none;
+    /*display: inline-block;*/
+    height: 330px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 56px;
+  }
+
+  h4 {
+    float: none;
+    margin-top: 10px;
+    font-size: 102px;
+  }
+
+  .hourly {
+    display: none;
+    height: 330px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .hourly-card {
+    padding: 10px 0 0 10px;
+  }
+
+  .hourly-card li {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .ten-day {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .ten-day-card {
+    width: 150px;
+    margin-top: 5px;
+  }
 }
