@@ -21,12 +21,21 @@
   background-color: rgba(40, 53, 67, 0.7);
 }
 
+.ten-day-card ul {
+  padding-top: 9px;
+}
+
+.ten-day-card img{
+  height: 72px;
+  width: 72px;
+}
+
 .ten-day-card li {
   margin-bottom: 20px;
   text-align: center;
   color: #FFFFFF;
   font-family: 'EB Garamond', serif;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #date {
