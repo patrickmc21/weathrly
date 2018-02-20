@@ -5,11 +5,23 @@
   background-color: rgba(40, 53, 67, 0.6);
 }
 
+.hourly-card ul {
+  display: grid;
+  grid-template-rows: 28px;
+  grid-template-columns: 80px 30px 30px 120px 80px;
+  grid-column-gap: 20px;
+  justify-content: left;
+}
+
 .hourly-card li{
-  display: inline;
-  margin-right: 30px;
-  font-size: 22px;
+  grid-row: 1;
+  font-size: 18px;
   color: #FFFFFF;
+}
+
+.hourly-card img {
+  height: 22px;
+  vertical-align: text-bottom;
 }
 
 .ten-day-card {
