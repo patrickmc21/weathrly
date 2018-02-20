@@ -3,14 +3,17 @@
 }
 
 body {
-  background-image: url('../sample-layout/mountain-bkrnd.jpg');
-  /*background-image: url('sunny.jpg');*/
-  /*background-image: url('snowy.jpg');*/
-  /*background-image: url('foggy.jpg');*/
-  /*background-image: url('stormy.jpg');*/
-  /*background-image: url('spring.jpg');*/
-  /*background-image: url('fall.jpg');*/
-  /*background-image: url('night.jpg');*/
+  height: 100vh;
+  // background-image: url('../sample-layout/mountain-bkrnd.jpg');
+  background-image: url('../sample-layout/snowing.jpg');
+  // background-image: url('../sample-layout/raining2.jpg');
+  // background-image: url('../sample-layout/sunny.jpg');
+  // background-image: url('../sample-layout/snowy.jpg');
+  // background-image: url('../sample-layout/foggy.jpg'); //hard to read header
+  // background-image: url('../sample-layout/stormy.jpg');
+  // background-image: url('../sample-layout/spring.jpg');
+  // background-image: url('../sample-layout/fall.jpg');
+  // background-image: url('../sample-layout/night.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +21,11 @@ body {
 
 @media screen and (max-width: 450px) {
   body {
-    background-image: url('../sample-layout/image.png');
+    background-image: url('../sample-layout/sunny-mobile.jpg');
+    // background-image: url('../sample-layout/cloudy-mobile.jpg');
+    // background-image: url('../sample-layout/rainy-mobile.jpg');
+    // background-image: url('../sample-layout/snowy-mobile.jpg');
+    // background-image: url('../sample-layout/thunder-mobile.jpg');
   }
 
 }
