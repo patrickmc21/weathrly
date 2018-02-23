@@ -1,0 +1,32 @@
+.welcome {
+  height: 100vh;
+  background-image: url('../sample-layout/Welcome-Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome h2 {
+  margin-bottom: 100px;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 2%;
+  height: 400px;
+  width: 95vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.greeting {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+
+form {
+  margin: 10px -55px 0 0;
+  padding: 0 !important;
+}
