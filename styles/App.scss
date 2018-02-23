@@ -1,11 +1,10 @@
 main {
   height: 100vh;
   // background-image: url('../sample-layout/mountain-bkrnd.jpg');
-  background-image: url('../sample-layout/snowing.jpg');
+  // background-image: url('../sample-layout/snowing.jpg');
   // background-image: url('../sample-layout/raining2.jpg');
   // background-image: url('../sample-layout/sunny.jpg');
-  // background-image: url('../sample-layout/snowy.jpg');
-  // background-image: url('../sample-layout/foggy.jpg'); //hard to read header
+  // background-image: url('../sample-layout/foggy.jpg');
   // background-image: url('../sample-layout/stormy.jpg');
   // background-image: url('../sample-layout/spring.jpg');
   // background-image: url('../sample-layout/fall.jpg');
@@ -14,6 +13,34 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.sunny {
+  background-image: url('../sample-layout/sunny.jpg');
+}
+
+.snowy {
+  background-image: url('../sample-layout/snowing.jpg');
+
+}
+
+.cloudy {
+  background-image: url('../sample-layout/mountain-bkrnd.jpg');
+}
+
+.rainy {
+  background-image: url('../sample-layout/raining2.jpg');
+
+}
+
+.foggy {
+  background-image: url('../sample-layout/foggy.jpg');
+}
+
+.stormy {
+  background-image: url('../sample-layout/stormy.jpg');
+}
+
+
 
 .main-banner {
   height: 550px;
