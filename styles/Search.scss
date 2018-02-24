@@ -2,20 +2,33 @@ form {
   float: right;
   display: inline-block;
   padding-left: 15%;
-  margin: 10px -20px 0 0;
+  // margin: 10px -20px 0 0;
   width: 50%;
   opacity: 0.8;
+}
+
+#main-search {
+  margin: 21px -3% 0 0;
 }
 
 #search {
   width: 80%;
   height: 50px;
   vertical-align: top;
-  font-size: 28px;
+  font-size: 28px;    
+  border-radius: 12px;
+  margin-right: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  outline: none;
 }
 
 #search::placeholder {
   font-size: 28px;
+  color: #FFFFFF;
+}
+
+#search, textarea {
+  color: #FFFFFF;
 }
 
 .submit-search {
@@ -25,6 +38,16 @@ form {
   width: 12%;
   font-size: 16px;
   font-family: 'EB Garamond', serif;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+  border: 2px solid #C1C2CA;
+  outline: none;
+}
+
+.submit-search:hover {
+    background-color: #FFFFFF;
+    color: black;
 }
 
 @media screen and (max-width: 450px) {
