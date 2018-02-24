@@ -1,0 +1,23 @@
+.error {
+  height: 100vh;
+  background-image: url('../sample-layout/404-error.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 2%;
+  height: 145px;
+  width: 95vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.error-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 72px;
+  color: #FFFFFF;
+}
