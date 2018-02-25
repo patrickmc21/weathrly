@@ -1,14 +1,12 @@
 form {
   float: right;
   display: inline-block;
-  padding-left: 15%;
-  // margin: 10px -20px 0 0;
   width: 50%;
   opacity: 0.8;
 }
 
 #main-search {
-  margin: 21px -3% 0 0;
+  margin: 21px 0 0 0;
 }
 
 #search {
@@ -48,6 +46,13 @@ form {
 .submit-search:hover {
     background-color: #FFFFFF;
     color: black;
+}
+
+@media screen and (max-width: 909px) {
+  #main-search {
+    margin: 21px 0 0 4px;
+    width: 98%
+  }
 }
 
 @media screen and (max-width: 450px) {

@@ -6,13 +6,25 @@ header {
 h2 {
   float: left;
   display: inline-block;
-  margin: 7px 0 0 10px;
+  margin: 7px 0 0 6px;
   font-family: 'Quicksand', sans-serif;
   font-size: 72px;
   color: #283543;
   text-shadow: 1px 1px 1px #B69677;
   // background-color: rgba(270, 270, 270, 0.2);
 
+}
+
+@media screen and (max-width: 909px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  h2 {
+    margin: 72px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 450px) {
