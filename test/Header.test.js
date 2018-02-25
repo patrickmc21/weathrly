@@ -8,7 +8,7 @@ describe('Header component', () => {
     wrapper = shallow(<Header/>)
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, Header', () => {
     expect(wrapper).toBeDefined();
   })
 

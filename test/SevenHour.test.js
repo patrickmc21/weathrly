@@ -10,7 +10,7 @@ describe('SevenHour component', () => {
     wrapper = shallow(<SevenHour array={getSevenHour(data)}/>)
   })
 
-  it('should exist', () => {
+  it('should should instantiate our good friend, SevenHour', () => {
     expect(wrapper).toBeDefined();
   })
 

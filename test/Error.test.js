@@ -8,7 +8,7 @@ describe('ErrorPage component', () => {
     wrapper = shallow(<ErrorPage updateWeather={'function'}/>)
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, ErrorPage', () => {
     expect(wrapper).toBeDefined();
   })
 
