@@ -25,10 +25,11 @@
 }
 
 .ten-day-card {
-  display: inline-block;
+  flex-grow: 1;
   margin: 8px 0.5%;
   height: 190px;
-  width: 126px;
+  min-width: 126px;
+  max-width: 169px;
   vertical-align: top;
   background-color: rgba(40, 53, 67, 0.7);
 }

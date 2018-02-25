@@ -1,9 +1,10 @@
 .hourly {
-  display: inline-block;
-  margin: 3% 0 0 35%;
-  height: 400px;
-  width: 450px;
-  vertical-align: top;
+  display: grid;
+  justify-content: center;
+  margin: 29px 0 0 0;
+  height: 350px;
+  width: 50%;
+  min-width: 450px;
 }
 
 @media screen and (max-width: 450px) {
