@@ -1,7 +1,10 @@
 .ten-day {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 1%;
   height: 205px;
   width: 98%;
+  overflow: scroll;
   background-color: rgba(0, 0, 0, 0.5);
   /*background-color: #BCD0E9;*/
 }
@@ -10,10 +13,10 @@
 @media screen and (max-width: 450px) {
   .ten-day {
     // display: flex;
+    margin-top: 40px;
     display: none; 
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 0;
     height: 400px;
     width: 100%;
     overflow: scroll;
