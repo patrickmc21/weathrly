@@ -23,17 +23,17 @@ h2 {
   }
 
   h2 {
-    margin: 72px 0 0 0;
+    margin: 120px 0 0 0;
   }
 }
 
-@media screen and (max-width: 450px) {
-   header {
-    height: 160px;
-  }
-  h2 {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-}
+// @media screen and (max-width: 450px) {
+//    header {
+//     height: 160px;
+//   }
+//   h2 {
+//     float: none;
+//     display: block;
+//     text-align: center;
+//   }
+// }

@@ -1,5 +1,5 @@
 main {
-  height: 100vh;
+  height: 100%;
   // background-image: url('../sample-layout/mountain-bkrnd.jpg');
   // background-image: url('../sample-layout/snowing.jpg');
   // background-image: url('../sample-layout/raining2.jpg');
@@ -86,26 +86,26 @@ main {
   }
 }
 
-@media screen and (max-width: 450px) {
+// @media screen and (max-width: 450px) {
 
-  main {
-    background-image: url('../sample-layout/sunny-mobile.jpg');
-    // background-image: url('../sample-layout/cloudy-mobile.jpg');
-    // background-image: url('../sample-layout/rainy-mobile.jpg');
-    // background-image: url('../sample-layout/snowy-mobile.jpg');
-    // background-image: url('../sample-layout/thunder-mobile.jpg');
-  }
+//   main {
+//     background-image: url('../sample-layout/sunny-mobile.jpg');
+//     // background-image: url('../sample-layout/cloudy-mobile.jpg');
+//     // background-image: url('../sample-layout/rainy-mobile.jpg');
+//     // background-image: url('../sample-layout/snowy-mobile.jpg');
+//     // background-image: url('../sample-layout/thunder-mobile.jpg');
+//   }
 
 
-  .main-banner {
-    height: 240px;
-    width: 100%;
-  }
-  .container {
-    // display: none;
-    top: 240px;
-    left: 0;
-    height: 330px;
-    width: 100%;
-  }
-}
+//   .main-banner {
+//     height: 240px;
+//     width: 100%;
+//   }
+//   .container {
+//     // display: none;
+//     top: 240px;
+//     left: 0;
+//     height: 330px;
+//     width: 100%;
+//   }
+// }
