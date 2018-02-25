@@ -8,7 +8,7 @@ describe('App component shallow', () => {
     wrapper = shallow(<App/>)
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, App', () => {
     expect(wrapper).toBeDefined();
   })
 

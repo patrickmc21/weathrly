@@ -8,7 +8,7 @@ describe('Card component shallow', () => {
     wrapper = shallow(<Card cardClass="tenHour" array={[1]}/>);
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, Card', () => {
     expect(wrapper).toBeDefined();
   })
 

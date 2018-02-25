@@ -10,7 +10,7 @@ describe('CurrentWeather component', () => {
     wrapper = shallow(<CurrentWeather forecast={getCurrentWeather(data)}/>)
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, CurrentWeather', () => {
     expect(wrapper).toBeDefined();
   })
 

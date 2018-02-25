@@ -8,7 +8,7 @@ describe('CardContent component', () => {
     wrapper = shallow(<CardContent weatherInfo="hello"/>)
   })
 
-  it('should exist', () => {
+  it('should instantiate our good friend, CardContent', () => {
     expect(wrapper).toBeDefined();
   })
 
