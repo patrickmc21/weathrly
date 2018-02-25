@@ -9,16 +9,20 @@
   /*background-color: #BCD0E9;*/
 }
 
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 909px) {
   .ten-day {
-    // display: flex;
-    margin-top: 40px;
-    display: none; 
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 400px;
+    margin: 47px 0 0 0;
     width: 100%;
-    overflow: scroll;
   }
 }
+
+// @media screen and (max-width: 450px) {
+//   .ten-day {
+//     display: none; 
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     height: 400px;
+//     width: 100%;
+//     overflow: scroll;
+//   }
+// }
