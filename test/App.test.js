@@ -76,14 +76,21 @@ describe('App component shallow', () => {
 
 })
 
-describe.skip('App component mount', () => {
+describe('App component mount', () => {
   let wrapper;
   beforeEach(() => {
     wrapper = mount(<App/>)
+    fetch.mockResponse(data, {status: 200});
+    const weatherInfo = data
+    })
+  it('should send location data to local storage', () => {
+    wrapper.instance().sendLocationToStorage('Denver, CO');
+    expect(localStorage.getItem('location')).toEqual('Denver, CO');
   })
-  it('should retrieve data from local storage on mount', () => {
-    localStorage.setItem('location', 'Denver, CO')
 
-    expect(wrapper.instance().getFromStorage).toHaveBeenCalledTimes(1);
+  it.skip('should set location state on page load if info is present', () => {
+    wrapper.unmount();
+    wrapper.mount()
+    expect(wrapper.instance().state.location).toEqual('Denver,CO')
   })
 })
