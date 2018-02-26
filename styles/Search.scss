@@ -1,8 +1,8 @@
 form {
-  float: right;
   display: inline-block;
-  width: 50%;
+  float: right;
   opacity: 0.8;
+  width: 50%;
 }
 
 #main-search {
@@ -10,19 +10,19 @@ form {
 }
 
 #search {
-  width: 80%;
-  height: 50px;
-  vertical-align: top;
-  font-size: 28px;    
-  border-radius: 12px;
-  margin-right: 2%;
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  font-size: 28px;    
+  height: 50px;
+  margin-right: 2%;
   outline: none;
+  vertical-align: top;
+  width: 80%;
 }
 
 #search::placeholder {
-  font-size: 28px;
   color: #FFFFFF;
+  font-size: 28px;
 }
 
 #search, textarea {
@@ -30,22 +30,21 @@ form {
 }
 
 .submit-search {
-  border: none;
-  margin-left: -4px;
-  height: 50px;
-  width: 12%;
-  font-size: 16px;
-  font-family: 'EB Garamond', serif;
-  border-radius: 12px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #FFFFFF;
+  border-radius: 12px;
   border: 2px solid #C1C2CA;
+  color: #FFFFFF;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  height: 50px;
+  margin-left: -4px;
   outline: none;
+  width: 12%;
 }
 
 .submit-search:hover {
-    background-color: #FFFFFF;
-    color: black;
+  background-color: #FFFFFF;
+  color: black;
 }
 
 @media screen and (max-width: 909px) {
@@ -55,18 +54,13 @@ form {
   }
 }
 
-// @media screen and (max-width: 450px) {
-//   form {
-//     float: none;
-//     padding-left: 0;
-//     width: 100%;
+@media screen and (max-width: 450px) {
+  .submit-search {
+    width: 18%;
+  }
 
-//   }
-//   #search {
-//     width: 80%;
-//   }
-//   .submit-search {
-//     width: 20%;
-//   }
+  #search::placeholder {
+    font-size: 20px;
+  }
 
-// }
+}

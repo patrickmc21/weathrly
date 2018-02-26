@@ -1,8 +1,8 @@
 .welcome {
-  height: 100vh;
   background-image: url('../sample-layout/Welcome-Background.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .welcome h2 {
@@ -10,23 +10,30 @@
 }
 
 .welcome-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 100px 2%;
   height: 400px;
+  justify-content: center;
+  margin: 173px 2%;
   width: 95vw;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .greeting {
+  color: #FFFFFF;
   font-family: 'EB Garamond', serif;
   font-size: 72px;
-  color: #FFFFFF;
+  text-align: center;
 }
 
 form {
   margin: 10px -55px 0 0;
   padding: 0 !important;
+}
+
+@media screen and (max-width: 909px) {
+  .welcome h2 {
+  margin-top: 10px;
+  }
 }
