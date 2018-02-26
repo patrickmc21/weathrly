@@ -1,11 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Card from '../lib/components/Card';
+import PropTypes from 'prop-types';
+
 
 describe('Card component shallow', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<Card cardClass="tenHour" array={[1]}/>);
+    wrapper = shallow(<Card cardClass="tenHour" array={['1']}/>);
   })
 
   it('should instantiate our good friend, Card', () => {
@@ -30,8 +32,8 @@ describe('Card component shallow', () => {
   })
 
   it('should assign the elements of its array prop to CardContent', () => {
-    expect(wrapper.instance().props.array).toEqual([1]);
-    expect(wrapper.find('CardContent').props().weatherInfo).toEqual(1);
+    expect(wrapper.instance().props.array).toEqual(['1']);
+    expect(wrapper.find('CardContent').props().weatherInfo).toEqual('1');
   })
 
 })

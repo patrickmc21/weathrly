@@ -1,6 +1,8 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import CardContent from '../lib/components/CardContent';
+import PropTypes from 'prop-types';
+
 
 describe('CardContent component', () => {
   let wrapper;

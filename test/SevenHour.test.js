@@ -3,6 +3,8 @@ import { shallow, mount } from 'enzyme';
 import SevenHour from '../lib/components/SevenHour';
 import data from '../lib/data/Mock-data';
 import getSevenHour from '../lib/data-cleaners/seven-hour-getter';
+import PropTypes from 'prop-types';
+
 
 describe('SevenHour component', () => {
   let wrapper;

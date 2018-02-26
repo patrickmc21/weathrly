@@ -1,31 +1,14 @@
-# React Starter Kit
+#Weathrly
 
-To install the dependencies:
+##Description
 
-```
-npm install
-```
+###Wire Frames
 
-To fire up a development server:
+[Desktop Welcome](images/desktop-welcome-wf.jpg)
 
-```
-npm start
-```
+[Desktop Main](images/desktop-main-wf.jpg)
 
-Once the server is running, you can visit:
+[Mobile Welcome](images/mobile-welcome-wf.jpg)
 
-* `http://localhost:8080/webpack-dev-server/` to run your application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
+[Mobile Main](images/mobile-main-wf.jpg)
 
-To build the static files:
-
-```js
-npm run build
-```
-
-
-To run tests in Node:
-
-```js
-npm test
-```

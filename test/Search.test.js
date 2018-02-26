@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Search from '../lib/components/Search';
+import PropTypes from 'prop-types';
 const Trie = require('@patrickmc21/prefix-trie/lib/Trie');
 import cityList from '../lib/data/city-list'
 
