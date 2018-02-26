@@ -1,63 +1,53 @@
 main {
-  height: 100%;
-  // background-image: url('../sample-layout/mountain-bkrnd.jpg');
-  // background-image: url('../sample-layout/snowing.jpg');
-  // background-image: url('../sample-layout/raining2.jpg');
-  // background-image: url('../sample-layout/sunny.jpg');
-  // background-image: url('../sample-layout/foggy.jpg');
-  // background-image: url('../sample-layout/stormy.jpg');
-  // background-image: url('../sample-layout/spring.jpg');
-  // background-image: url('../sample-layout/fall.jpg');
-  // background-image: url('../sample-layout/night.jpg');
-
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .sunny {
-  background-image: url('../sample-layout/sunny.jpg');
+  background-image: url('../images/app-images/sunny.jpg');
 }
 
 .snowy {
-  background-image: url('../sample-layout/snowing.jpg');
+  background-image: url('../images/app-images/snowing.jpg');
 
 }
 
 .cloudy {
-  background-image: url('../sample-layout/cloudy.jpg');
+  background-image: url('../images/app-images/cloudy.jpg');
 }
 
 .rainy {
-  background-image: url('../sample-layout/raining2.jpg');
+  background-image: url('../images/app-images/raining2.jpg');
 
 }
 
 .foggy {
-  background-image: url('../sample-layout/foggy.jpg');
+  background-image: url('../images/app-images/foggy.jpg');
 }
 
 .stormy {
-  background-image: url('../sample-layout/stormy.jpg');
+  background-image: url('../images/app-images/stormy.jpg');
 }
 
 .smoke {
-  background-image: url('../sample-layout/smokey.jpg');
+  background-image: url('../images/app-images/smokey.jpg');
 }
 
 .volcano {
-  background-image: url('../sample-layout/volcano.jpg');
+  background-image: url('../images/app-images/volcano.jpg');
 }
 
 .dusty {
-  background-image: url('../sample-layout/sand-storm.png');
+  background-image: url('../images/app-images/sand-storm.png');
 }
 
 .clear-cold {
-  background-image: url('../sample-layout/mountain-bkrnd.jpg');
+  background-image: url('../images/app-images/mountain-bkrnd.jpg');
 }
 
 .clear-night {
-  background-image: url('../sample-layout/night.jpg');
+  background-image: url('../images/app-images/night.jpg');
 }
 
 
@@ -67,16 +57,16 @@ main {
 }
 
 .container {
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  height: 400px;
+  justify-content: center;
+  left: .5%;
   overflow: scroll;
   position: absolute;
   top: 120px;
-  left: .5%;
-  height: 400px;
   width: 99%;
-  background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -86,26 +76,49 @@ main {
   }
 }
 
-// @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 
-//   main {
-//     background-image: url('../sample-layout/sunny-mobile.jpg');
-//     // background-image: url('../sample-layout/cloudy-mobile.jpg');
-//     // background-image: url('../sample-layout/rainy-mobile.jpg');
-//     // background-image: url('../sample-layout/snowy-mobile.jpg');
-//     // background-image: url('../sample-layout/thunder-mobile.jpg');
-//   }
+  .sunny {
+    background-image: url('../images/app-images/sunny-mobile.jpg');
+  }
 
+  .snowy {
+    background-image: url('../images/app-images/snowy-mobile.jpg');
+  }
 
-//   .main-banner {
-//     height: 240px;
-//     width: 100%;
-//   }
-//   .container {
-//     // display: none;
-//     top: 240px;
-//     left: 0;
-//     height: 330px;
-//     width: 100%;
-//   }
-// }
+  .cloudy {
+    background-image: url('../images/app-images/cloudy-mobile.jpg');
+  }
+
+  .rainy {
+    background-image: url('../images/app-images/rainy-mobile.jpg');
+  }
+
+  .foggy {
+    background-image: url('../images/app-images/foggy-mobile.jpg');
+  }
+
+  .stormy {
+    background-image: url('../images/app-images/thunder-mobile.jpg');
+  }
+
+  .smoke {
+    background-image: url('../images/app-images/smokey.jpg');
+  }
+
+  .volcano {
+    background-image: url('../images/app-images/volcano-mobile.jpg');
+  }
+
+  .dusty {
+    background-image: url('../images/app-images/sandy-mobile.jpg');
+  }
+
+  .clear-cold {
+    background-image: url('../images/app-images/mountain-bkrnd.jpg');
+  }
+
+  .clear-night {
+    background-image: url('../images/app-images/night.jpg');
+  }
+}

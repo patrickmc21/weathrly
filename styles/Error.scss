@@ -1,23 +1,33 @@
 .error {
-  height: 100vh;
-  background-image: url('../sample-layout/404-error.jpg');
-  background-size: cover;
+  background-image: url('../sample-layout/Welcome-Background.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .error-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 100px 2%;
-  height: 145px;
-  width: 95vw;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 95%;
 }
 
 .error-text {
+  color: #FFFFFF;
   font-family: 'EB Garamond', serif;
   font-size: 72px;
-  color: #FFFFFF;
+}
+
+@media screen and (max-width: 909px) {
+  .error-title {
+    margin-top: 10px;
+  }
+
+  .error-text {
+    font-size: 55px;
+  }
 }
