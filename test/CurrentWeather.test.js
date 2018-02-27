@@ -3,6 +3,8 @@ import { shallow, mount } from 'enzyme';
 import CurrentWeather from '../lib/components/CurrentWeather';
 import data from '../lib/data/Mock-data';
 import getCurrentWeather from '../lib/data-cleaners/current-weather-getter';
+import PropTypes from 'prop-types';
+
 
 describe('CurrentWeather component', () => {
   let wrapper;
@@ -29,7 +31,7 @@ describe('CurrentWeather component', () => {
   })
 
   it('should have a div wrapping the the time, condition, icon, high/low, and summary', () => {
-    expect(wrapper.find('div').length).toEqual(1);
+    expect(wrapper.find('.local-weather-div-two').is('div')).toEqual(true);
     expect(wrapper.find('div').find('h5').length).toEqual(3);
     expect(wrapper.find('div').find('img').length).toEqual(1);
     expect(wrapper.find('div').find('p').length).toEqual(2);
@@ -40,7 +42,7 @@ describe('CurrentWeather component', () => {
   })
 
   it('should have the second h5 with the month and date', () => {
-    expect(wrapper.find('div').childAt(1).text()).toEqual(`${wrapper.instance().props.forecast.currentTime[1]} ${wrapper.instance().props.forecast.currentTime[2]}`)
+    expect(wrapper.find('.local-weather-div-two').childAt(1).text()).toEqual(`${wrapper.instance().props.forecast.currentTime[1]} ${wrapper.instance().props.forecast.currentTime[2]}`)
   })
 
   it('should have a third h5 with the current condition', () => {

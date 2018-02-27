@@ -1,11 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Header from '../lib/components/Header';
+import PropTypes from 'prop-types';
+
 
 describe('Header component', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<Header/>)
+    wrapper = shallow(<Header updateWeather={jest.fn()}/>)
   })
 
   it('should instantiate our good friend, Header', () => {

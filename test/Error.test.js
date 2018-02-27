@@ -1,11 +1,13 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import ErrorPage from '../lib/components/Error';
+import PropTypes from 'prop-types';
+
 
 describe('ErrorPage component', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<ErrorPage updateWeather={'function'}/>)
+    wrapper = shallow(<ErrorPage updateWeather={jest.fn()}/>)
   })
 
   it('should instantiate our good friend, ErrorPage', () => {

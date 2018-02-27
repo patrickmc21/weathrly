@@ -3,6 +3,8 @@ import { shallow, mount } from 'enzyme';
 import TenDay from '../lib/components/TenDay';
 import data from '../lib/data/Mock-data';
 import getTenDay from '../lib/data-cleaners/ten-day-getter';
+import PropTypes from 'prop-types';
+
 
 describe('TenDay component', () => {
   let wrapper;
