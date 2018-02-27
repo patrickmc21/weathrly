@@ -1,22 +1,22 @@
 .hourly-card {
-  height: 40px;
-  padding: 10px 0 0 20px;
-  margin-bottom: 4px;
   background-color: rgba(40, 53, 67, 0.6);
+  height: 40px;
+  margin-bottom: 4px;
+  padding: 10px 0 0 20px;
 }
 
 .hourly-card ul {
   display: grid;
-  grid-template-rows: 28px;
-  grid-template-columns: 80px 30px 30px 120px 100px;
   grid-column-gap: 15px;
+  grid-template-columns: 80px 30px 30px 120px 100px;
+  grid-template-rows: 28px;
   justify-content: left;
 }
 
 .hourly-card li{
-  grid-row: 1;
-  font-size: 18px;
   color: #FFFFFF;
+  font-size: 18px;
+  grid-row: 1;
 }
 
 .hourly-card img {
@@ -25,13 +25,13 @@
 }
 
 .ten-day-card {
-  flex-grow: 1;
-  margin: 8px 0.5%;
-  height: 190px;
-  min-width: 126px;
-  max-width: 169px;
-  vertical-align: top;
   background-color: rgba(40, 53, 67, 0.7);
+  flex-grow: 1;
+  height: 190px;
+  margin: 8px 0.5%;
+  max-width: 169px;
+  min-width: 126px;
+  vertical-align: top;
 }
 
 .ten-day-card ul {
@@ -44,34 +44,36 @@
 }
 
 .ten-day-card li {
-  margin-bottom: 20px;
-  text-align: center;
   color: #FFFFFF;
   font-family: 'EB Garamond', serif;
   font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #date {
-  margin: -15px 0 10px 0;
   font-size: 22px;
+  margin: -15px 0 10px 0;
 }
 
 .ten-day-card i {
   font-size: 56px;
 }
 
-// @media screen and (max-width: 450px) { 
-//   .hourly-card {
-//     padding: 10px 0 0 10px;
-//   }
+@media screen and (max-width: 909px) {
+  .hourly-card {
+    height: 50px;
+  }
+}
 
-//   .hourly-card li {
-//     margin-right: 15px;
-//     font-size: 18px;
-//   }
+@media screen and (max-width: 450px) { 
+  .hourly-card {
+    height: 61px;
+    padding: 6px 0px 0px 39px;
+    width: 99%;
+  }
 
-//    .ten-day-card {
-//     width: 150px;
-//     margin-top: 5px;
-//   }
-// }
+  .hourly-card ul {
+    grid-template-columns: 75px 20px 18px 61px 84px;
+  }
+}
